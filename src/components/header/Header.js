@@ -24,19 +24,19 @@ const  onCloseModal = () => {
     const [showNav, setShowNav] = useState();
     const navItems = [
         <Link onClick={()=>{onOpenModal("Home")}}>
-          Link1
+          Home
         </Link>,
         <Link  onClick={()=>{onOpenModal("Solutions")}}>
-          Link2
+          Solutions
         </Link>,
         <Link  onClick={()=>{onOpenModal("Insights")}}>
-          Link3
+          Insights
         </Link>,
         <Link  onClick={()=>{onOpenModal("Team")}}>
-          Link3
+          Team
         </Link>,
         <Link  onClick={()=>{onOpenModal("Demo")}}>
-          Link3
+          Demo
         </Link>
       ];
     return <div className="row header">
