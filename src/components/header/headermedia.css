@@ -1,0 +1,16 @@
+@media (max-width:750px) {
+    .ham-contanier {
+        display: block !important;
+    }
+    .header-tabs {
+        display: none !important;
+    }
+}
+.data-science {
+    width: 54rem;
+}
+.topic {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}

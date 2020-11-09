@@ -1,0 +1,54 @@
+.content {
+    margin-top: 6.5rem;
+}
+
+.title-content{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 400;
+}
+
+.title-content span {
+    color: #9A073C;
+}
+.title-edge {
+    margin-left: 10px;
+}
+.typewriter {
+    font-size: 25px;
+    color: #9A073C;
+    margin-top: 65px;
+}
+.demo-but {
+    padding: 9px 30px;
+    background: #0B245B;
+    border-radius: 25px;
+    color: white;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+ .demo-btn-div {
+    margin-top: 55px;
+ }
+ .demo-but:hover {
+     background: #9A073C;
+ }
+ @media (max-width:700px) {
+    .typewriter {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    } 
+    .demo-btn-div {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+     }
+ }
