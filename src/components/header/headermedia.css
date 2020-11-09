@@ -14,3 +14,128 @@
     width: 100%;
     justify-content: center;
 }
+
+
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 5px 8px 27px 4px;
+    font-size: 17.5px;
+    margin-top: 6px;
+    border: none;
+    z-index: 100;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+        /* min-width: 160px; */
+        width: 77rem;
+    left: -49.5rem;
+    top: 4rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    animation-name: moveInLeft;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out;
+  }
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+        /* min-width: 160px; */
+        width: 77rem;
+    left: -58.5rem;
+    top: 4rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    animation-name: moveInLeft;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out;
+  }
+  .row-content:hover {
+      background: #173985;
+      cursor: pointer;
+  }
+
+  .dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    transition: 0.3s;
+}
+.dropdown:hover .dropdown-content1 {
+    display: block;
+    transition: 0.3s;
+}
+.dropdown:hover .dropbtn {background-color: #E3E3E3;}
+
+.drop-part1 {
+    background: #9A073C;
+}
+.drop-part2 {
+    background: #0B245B;
+    display: flex;
+}
+.drop-left-head {
+    margin: 31px 45px;
+    font-size: xx-large;
+    font-weight: 500;
+    color: white;
+    padding: 17px 0;
+    border-bottom: 1.7px solid;
+}
+.drop-left-content {
+    color: white;
+    margin: 123px 25px 73px;
+}
+.text-cont {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.img-cont {
+    display: flex;
+    margin: auto auto;
+    margin-top: 25px;
+    width: 60px;
+}
+
+@media (max-width:1250px) {
+    .dropdown-content {
+            width: 77rem;
+        left: -45.5rem;
+        top: 4rem;
+     
+      }
+      .dropdown-content1 {
+            width: 77rem;
+        left: -54.5rem;
+        top: 4rem;
+
+      } 
+}
+@media (max-width:1120px) {
+    .dropdown-content {
+        width: 72rem;
+        left: -39.5rem;
+        top: 4rem;
+     
+      }
+      .dropdown-content1 {
+        width: 72rem;
+        left: -48.5rem;
+        top: 4rem;
+
+      } 
+}
